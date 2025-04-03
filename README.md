@@ -5,6 +5,13 @@ This project implements an end-to-end deep learning-based image captioning syste
 
 ![image](https://github.com/user-attachments/assets/0445a20b-3858-4519-95f9-eb8ee098b8c4)
 
+**Dataset:**  
+ The model is trained on a large-scale dataset (MS COCO)
+ - captions_train2017
+ - captions_val2017
+ - train2017
+ - val2017
+   
 The project is organized into several key components: 
 - **Encoder CNN Class:** Extracts feature from images using a pre-trained ResNet-50 model.
 - **Decoder RNN Class:** Generates captions based on the extracted features using an LSTM network. 
